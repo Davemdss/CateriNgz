@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAteriNgz</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="CAteriNgz_home.html" class="navbar-title">CAteriNgz</a>
+            <ul class="navbar-links">
+                <li><a href="CAteriNgz_products.html">Products</a></li>
+                <li><a href="CAteriNgz_Testimonials.html">Testimonials</a></li>
+                <li><a href="CAteriNgz_Aboutus.html">About Us</a></li>
+                <li><a href="CAteriNgz_register.html">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="register-container">
+        <h2>Register</h2>
+        <div class="register-form">
+            <form onsubmit="validateFunction(); return false;">
+                <div class="form-group">
+                    <label for="name-data">Name</label>
+                    <input type="text" id="name-data" name="name-data">
+                    <div id="error-name" class="error-message"></div>
+                </div>
+                <div class="form-group">
+                    <label for="email-data">Email</label>
+                    <input type="email" id="email-data" name="email-data">
+                    <div id="error-email" class="error-message"></div>
+                </div>
+                <div class="form-group">
+                    <label for="pass-data">Password</label>
+                    <input type="password" id="pass-data" name="pass-data">
+                    <div id="error-pass" class="error-message"></div>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-pass-data">Confirm Password</label>
+                    <input type="password" id="confirm-pass-data" name="confirm-pass-data">
+                    <div id="error-confirm-pass" class="error-message"></div>
+                </div>
+                <div class="form-group">
+                    <label for="dob-data">Date of Birth</label>
+                    <input type="date" id="dob-data" name="dob-data">
+                    <div id="error-dob" class="error-message"></div>
+                </div>
+                <div class="form-group">
+                    <label for="address-data">Address</label>
+                    <input type="text" id="address-data" name="address-data">
+                    <div id="error-address" class="error-message"></div>
+                </div>
+                <div class="form-group">
+                    <label for="gender-data">Gender</label>
+                    <select id="gender-data" name="gender-data">
+                        <option value="">Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <div id="error-gender" class="error-message"></div>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="agreement" name="agreement">
+                    <label for="agreement">I agree to the EULA</label>
+                </div>
+                <button type="submit" class="submit-button">Register</button>
+            </form>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer-contact">
+            <p>Contact Us</p>
+        </div>
+        <div class="footer-social">
+            <a href="#"><img src="Images/Footer/icons8-facebook-48.png" alt="Facebook"></a>
+            <a href="#"><img src="Images/Footer/icons8-linkedin-48.png" alt="Linkedin"></a>
+            <a href="#"><img src="Images/Footer/icons8-instagram-48.png" alt="Instagram"></a>
+            <a href="#"><img src="Images/Footer/icons8-twitter-48.png" alt="Twitter"></a>
+        </div>
+        <div class="footer-bottom">
+            <p>FRESH & HOMEMADE QUALITY FOODS, CRAFTED WITH <span>❤</span> </p>
+            <p>© CAteriNgz | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
