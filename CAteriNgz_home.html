@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAteriNgz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="CAteriNgz_home.html" class="navbar-title">CAteriNgz</a>
+            <ul class="navbar-links">
+                <li><a href="CAteriNgz_products.html">Products</a></li>
+                <li><a href="CAteriNgz_Testimonials.html">Testimonials</a></li>
+                <li><a href="CAteriNgz_Aboutus.html">About Us</a></li>
+                <li><a href="CAteriNgz_register.html">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="image-container">
+        <img src="Images/Home/Home-page.jpg" alt="Description of the image" class="cropped-image">
+        <div class="text-overlay">
+            <p>FRESH & QUALITY CATERING SERVICES</p>
+            <p>CAteriNgz offer a variety of foods that are homemade,<br>using fresh and the best quality ingredients to
+                ensure customer satisfaction</p>
+        </div>
+        <div class="button-container">
+            <button class="promo-button" onclick="document.getElementById('promo').scrollIntoView();">This week's
+                promo</button>
+            <button class="recommendation-button"
+                onclick="document.getElementById('recommendation').scrollIntoView();">View recommendation</button>
+        </div>
+    </div>
+
+    <section id="promo" class="section">
+        <h2>This Week's Promo</h2>
+        <p>Don't miss out on our exclusive deals for this week.</p>
+    </section>
+
+    <section class="container">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <div class="slide">
+                    <img id="slide-1" src="Images/Home/Pic_1.png" alt="Pic 1">
+                    <div class="text-overlay">
+                        <p>Launching Special!</p>
+                        <p>enjoy 10% off on all our catering services</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img id="slide-2" src="Images/Home/Pic_2.png" alt="Pic 2">
+                    <div class="text-overlay">
+                        <p>Welcome Promo</p>
+                        <p>new users get an additional 10% discount</p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img id="slide-3" src="Images/Home/Pic_3.png" alt="Pic 3">
+                    <div class="text-overlay">
+                        <p>Western Feast</p>
+                        <p>orders with western related food will get an additional free coke!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="recommendation" class="section">
+        <h2>Recommended for You</h2>
+        <p>Check out our top recommendations for this week.</p>
+    </section>
+
+    <section class="image-placeholders">
+        <div class="placeholder-container">
+            <img src="Images/Products/Pasta.jpg" alt="Description for Image 1" class="placeholder">
+            <div class="description">Creamy Tomato Prawn Pasta</div>
+        </div>
+        <div class="placeholder-container">
+            <img src="Images/Products/Ramen.jpg" alt="Description for Image 1" class="placeholder">
+            <div class="description">Classic Shoyu Ramen</div>
+        </div>
+        <div class="placeholder-container">
+            <img src="Images/Products/Burger.jpg" alt="Description for Image 1" class="placeholder">
+            <div class="description">Classic Burger Feast</div>
+        </div>
+        <div class="placeholder-container">
+            <img src="Images/Products/Fried-rice.jpg" alt="Description for Image 1" class="placeholder">
+            <div class="description">Spicy Tomato Fried Rice</div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-contact">
+            <p>Contact Us</p>
+        </div>
+        <div class="footer-social">
+            <a href="#"><img src="Images/Footer/icons8-facebook-48.png" alt="Facebook"></a>
+            <a href="#"><img src="Images/Footer/icons8-linkedin-48.png" alt="LinkedIn"></a>
+            <a href="#"><img src="Images/Footer/icons8-instagram-48.png" alt="Instagram"></a>
+            <a href="#"><img src="Images/Footer/icons8-twitter-48.png" alt="Twitter"></a>
+        </div>
+        <div class="footer-bottom">
+            <p>FRESH & HOMEMADE QUALITY FOODS, CRAFTED WITH <span>❤</span> </p>
+            <p>© CAteriNgz | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
